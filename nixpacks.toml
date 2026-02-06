@@ -1,0 +1,14 @@
+# Railway Nixpacks build va start sozlamalari.
+# Nixpacks loyihani tahlil qilib Python aniqlaydi; start buyrug‘i bot.py bo‘lishi kerak
+# (default main.py qidiriladi). Shuning uchun start ni aniq ko‘rsatamiz.
+# https://docs.railway.com/guides/start-command
+
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+# Botni ishga tushirish — veb-server emas, long polling.
+commands = ["python bot.py"]

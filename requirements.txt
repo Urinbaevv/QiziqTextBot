@@ -1,0 +1,15 @@
+# =============================================================================
+# requirements.txt — loyiha bog‘liqliklari (kutubxonalar)
+# =============================================================================
+# Bu fayldagi har bir qator bitta paket. O‘rnatish: pip install -r requirements.txt
+# Versiya (==3.24.0) — aniq shu versiya o‘rnatiladi; loyiha boshqa versiyada
+# sinovdan o‘tmagan bo‘lishi mumkin.
+# =============================================================================
+
+# Telegram botlar yozish uchun asosiy kutubxona. Async (async/await) qo‘llab-
+# quvvatlaydi, xabarlar, buyruqlar, klaviaturalar va boshqa API ni oson ishlatish.
+aiogram==3.24.0
+
+# .env faylidan o‘zgaruvchilarni (BOT_TOKEN va h.k.) o‘qish. Token kodda
+# saqlanmasligi, faqat .env da bo‘lishi uchun kerak.
+python-dotenv==1.0.1

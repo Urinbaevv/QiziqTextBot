@@ -1,0 +1,3 @@
+# Railway va boshqa platformalarda Python versiyasi.
+# 3.11 — zamonaviy va barqaror; aiogram 3.24 bilan mos.
+python-3.11.9
